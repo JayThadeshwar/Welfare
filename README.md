@@ -1,2 +1,9 @@
 # Welfare
-The website which helps the victims of disaster. Through its features such as raising the disaster alert, live chat, donations, NGO mailing system and voluteer events raised by NGO's
+The website which helps the victims before, during and after disaster. 
+
+# Features 
+Raising the disaster alert
+Live chat
+Donations through RazorPay
+NGO mailing system 
+Voluteer events raised by NGO's
