@@ -46,17 +46,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <form action="https://www.example.com/payment/success/" method="POST"> 
-			<!--<script style=" display:block;"
-				src="https://checkout.razorpay.com/v1/checkout.js"    
-				data-key="rzp_test_HN1Lu3k0ky5T6L"
-				data-order_id="order_EMo6ke3pstvJdG"
-				data-buttontext="A STEP TOWARDS A GOOD CAUSE"    
-				data-name="Welfare"    
-				data-description=""    
-				data-image="https://example.com/your_logo.jpg"     
-				data-theme.color="#000000"
-				></script>-->
+            <form action="https://www.example.com/payment/success/" method="POST"> 			
 				<button id=rzp-button1><p>A STEP TOWARDS CHANGE</p>
 </button><style>
 	#rzp-button1 {
@@ -100,7 +90,7 @@
 	}</style>
 			<script src="https://checkout.razorpay.com/v1/checkout.js"></script></script><script>
 var options = {
-    "key": "rzp_test_H9ATd0Ov9XeDCO",
+    "key": "API_KEY",
     "amount": "<?php echo $_POST['amount']*100; ?>", //  = INR 1
     "name": "Welfare",
     "description": "",
